@@ -10,7 +10,7 @@ def remove_friend_request(token, uid):
     data0 = "08c8b5cfea1810" + id_encrypted + "18012008"
     data = bytes.fromhex(encrypt_api(data0))
 
-    url = "https://clientbp.ggblueshark.com/GetBackpack"
+    url = "https://clientbp.ggblueshark.com/RemoveFriend"
     headers = {
         'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; ASUS_Z01QD Build/PI)',
         'Connection': 'Keep-Alive',
